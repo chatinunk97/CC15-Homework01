@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Itim&family=Noto+Sans+Thai:wght@300;400&family=Roboto+Condensed:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="./index.html"><i class="fa-solid fa-house"></i>&nbsp;&nbsp;&nbsp;&nbsp;Home</a><a
+            href="education.html">Education</a><a href="./work.html">Work Experience</a><a href="./contact.html">Contact
+            Me</a>
+    </div>
+    <div class="head_profile">
+        <h1>Contact me</h1>
+        <br>
+        <h2>I'm open to all opportunities</h2>
+    </div>
+    <div style="text-align: center; padding-bottom: 50px;">
+        <div class="form_container">
+            <h3>Enter your information here</h3>
+            <br>
+            <form ACTION="https://jkorpela.fi/cgi-bin/echo.cgi">
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" name="fname" required style="width: 100%; font-size: 30px;"><br><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname" required style="width: 100%;font-size: 30px;"><br><br>
+                <label for="lname">Gender:</label><br>
+                <select name="gender" id="gender" style="width: 100%;font-size: 30px;">
+                    <option value="male"> Male</option>
+                    <option value="female"> Female</option>
+                    <option value="else"> Else</option>
+                </select>
+                <br><br>
+                <label for="w3review">Message<br>
+                    <textarea id="textMessage" name="textMessage" rows="20" cols="50" style="width: 100%; resize: none;" ></textarea>
+                </label>
+                <br><br>
+                <div style="text-align: center;">
+                    <input type="submit" value="Submit" style="width: 70%;font-size: 30px;">
+                    <input type="reset" value="Reset" style="margin-left:20px;width: 20%;font-size: 30px;">
+                </div>
+
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
