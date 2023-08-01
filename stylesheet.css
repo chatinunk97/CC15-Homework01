@@ -9,7 +9,7 @@
 
 body {
     background: linear-gradient(to right bottom, rgb(255, 255, 255), rgba(255, 155, 155, 0.303));
-    /* height: 100vh; */
+    height: 100vh;
     /* min-width: 1490px;
     max-width: 1490px; */
     min-width: 650px;
@@ -137,6 +137,12 @@ a:last-child {
     text-align: left;
 }
 
+/* Table */
+
+.tableFlex{
+    display: flex;
+    justify-content: center;
+}
 .info>ul {
     padding: 10px;
 }
@@ -201,6 +207,8 @@ tr>th {
     text-align: center;
     padding: 10px;
 }
+
+/* Form */
 .form_container {
     margin-top: 70px;
     padding: 20px;
