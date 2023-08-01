@@ -42,7 +42,7 @@ body {
     background-color: rgb(0, 0, 0);
     color: white;
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 910px) {
     body{
         height: 100%;
     }
