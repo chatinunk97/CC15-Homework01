@@ -23,8 +23,9 @@ body {
 }
 
 .navbar>a {
+    position: relative;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 2rem;
     display: inline-block;
     flex-grow: 1;
     padding: 15px;
@@ -32,8 +33,9 @@ body {
     background-color: rgb(40, 39, 39);
     color: white;
 }
-a:last-child {
-    border-right: none;
+.navbar > a > i{
+    position:relative;
+    top: 2px;
 }
 
 .navbar>a:hover {
@@ -47,10 +49,23 @@ a:last-child {
     .navbar  {
       flex-direction: column;
     }
-    .navbar>a{
-        width: 100%;
-        text-align: center;
+    .navbar > a > i{
+        position: static;
     }
+    .head_profile > h1{
+        font-size: 1.5rem;
+
+    }
+    .head_profile > *{
+        font-size: 1rem;
+    }
+    .navbar>a{
+        padding: 5px;
+        font-size: 1.5rem;
+        width: 100%;
+        text-align: left;
+    }
+
     .tableFlex{
         flex-direction: column;
         align-items: center;
@@ -70,6 +85,9 @@ a:last-child {
     }
     form select{
         font-size: 1rem !important;
+    }
+    .tableFlex{
+        flex-direction: column;
     }
 }
 
@@ -163,6 +181,16 @@ a:last-child {
 .tableFlex{
     display: flex;
     justify-content: center;
+    margin-top: 10px;
+}
+tr{
+    background-color: white;
+}
+tr:nth-child(odd){
+    background-color: rgb(239, 237, 237);
+}
+th{
+    background-color:white;
 }
 .info>ul {
     padding: 10px;
