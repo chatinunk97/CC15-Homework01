@@ -9,11 +9,12 @@
 
 body {
     background: linear-gradient(to right bottom, rgb(255, 255, 255), rgba(255, 155, 155, 0.303));
-    height: 150vh;
-    /* min-width: 1490px;
-    max-width: 1490px; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
     min-width: 375px;
-    padding-bottom: 100px;
+    outline: 1px dashed red;
+
 }
 
 /* Navigation Bar */
@@ -44,7 +45,7 @@ body {
 }
 @media only screen and (max-width: 910px) {
     body{
-        height: 100%;
+        height: 100% !important;
     }
     .navbar  {
       flex-direction: column;
@@ -179,6 +180,7 @@ body {
 /* Table */
 
 .tableFlex{
+    /* padding-block: 20px; */
     display: flex;
     justify-content: center;
     margin-top: 10px;
