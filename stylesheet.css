@@ -11,7 +11,7 @@ body {
     background: linear-gradient(to right bottom, rgb(255, 255, 255), rgba(255, 155, 155, 0.303));
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 200vh;
     min-width: 375px;
     outline: 1px dashed red;
 
@@ -45,7 +45,7 @@ body {
 }
 @media only screen and (max-width: 910px) {
     body{
-        height: 100% !important;
+        height: 150vh;
     }
     .navbar  {
       flex-direction: column;
@@ -70,6 +70,8 @@ body {
     .tableFlex{
         flex-direction: column;
         align-items: center;
+        justify-content: space-between;
+        gap: 20px;
     }
     .image_profile> .textIntroduce {
         height: auto;
@@ -86,9 +88,6 @@ body {
     }
     form select{
         font-size: 1rem !important;
-    }
-    .tableFlex{
-        flex-direction: column;
     }
 }
 
@@ -123,7 +122,6 @@ body {
 }
 
 .image_profile> .textIntroduce {
-    /* height: 170px; */
     display: inline-block;
     padding: 25px;
     max-width: 800px;
@@ -142,21 +140,21 @@ body {
     width: 0px;
     opacity: 0;
 }
-.image_profile>.textIntroduce:hover{
+/* .image_profile>.textIntroduce:hover{
     font-size: 20px;
     width: 60vw;
     transition-property: width,height, font-size;
     transition-duration: 1s;
-}
-.image_profile>.textIntroduce:hover img{
+} */
+/* .image_profile>.textIntroduce:hover img{
     transition: all 1s;
     width: 200px;
     opacity: 1;
-}
-.image_profile> .textIntroduce:hover{
+} */
+/* .image_profile> .textIntroduce:hover{
     height: 500px;
     transition-duration: 1s;
-}
+} */
 /* Personal Profile */
 .personal_profile {
     margin: 10px;
@@ -180,7 +178,6 @@ body {
 /* Table */
 
 .tableFlex{
-    /* padding-block: 20px; */
     display: flex;
     justify-content: center;
     margin-top: 10px;
@@ -227,6 +224,7 @@ li {
     box-shadow: 7px 7px 7px grey;
     min-width: 300px;
     margin: 10px;
+    margin-bottom: 20px;
 }
 
 .boxDetails {
